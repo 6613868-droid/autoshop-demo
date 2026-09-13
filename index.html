@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ТехЦентр 39 — ремонт и обслуживание автомобилей в Калининграде</title>
+<meta name="description" content="Автосервис ТехЦентр 39: диагностика, ремонт подвески и двигателей, ТО, автоэлектрика. Честная смета до начала работ, гарантия 6 месяцев. Запись в WhatsApp.">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:Arial,Helvetica,sans-serif;background:#15181c;color:#e8eaed;line-height:1.55}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+  header{position:sticky;top:0;background:rgba(21,24,28,.96);border-bottom:1px solid #2a2f36;z-index:10}
+  .header-in{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .logo{font-weight:800;font-size:20px;letter-spacing:.5px;color:#fff}
+  .logo span{color:#f97316}
+  .header-phone{color:#f97316;font-weight:700;font-size:15px}
+  .hero{position:relative;min-height:520px;display:flex;align-items:center;background:#000}
+  .hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.45}
+  .hero-in{position:relative;padding:70px 0}
+  .hero h1{font-size:clamp(30px,5vw,52px);line-height:1.12;font-weight:800;color:#fff}
+  .hero h1 em{font-style:normal;color:#f97316}
+  .hero p{margin:18px 0 28px;font-size:18px;color:#cfd3d8;max-width:560px}
+  .btn{display:inline-block;background:#f97316;color:#fff;font-weight:800;font-size:17px;padding:15px 30px;border-radius:10px;border:0;cursor:pointer}
+  .btn:hover{background:#ea580c}
+  .btn-ghost{background:transparent;border:2px solid #f97316;color:#f97316;margin-left:12px;padding:13px 26px}
+  .btn-ghost:hover{background:#f97316;color:#fff}
+  section{padding:64px 0}
+  h2{font-size:clamp(24px,3.4vw,36px);font-weight:800;color:#fff;margin-bottom:8px}
+  .sub{color:#9aa1a9;margin-bottom:36px}
+  .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+  .card{background:#1d2126;border:1px solid #2a2f36;border-radius:12px;padding:22px}
+  .card h3{font-size:16.5px;color:#fff;margin-bottom:8px}
+  .card p{font-size:14px;color:#9aa1a9;margin-bottom:14px;min-height:42px}
+  .price{color:#f97316;font-weight:800;font-size:18px}
+  .why{display:grid;grid-template-columns:1fr 1fr;gap:0;background:#1d2126;border-radius:14px;overflow:hidden}
+  .why img{width:100%;height:100%;object-fit:cover;min-height:320px}
+  .why-list{padding:40px}
+  .why-list h2{margin-bottom:22px}
+  .why-item{display:flex;gap:14px;margin-bottom:18px;font-size:15.5px}
+  .why-item b{color:#f97316}
+  .reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  .review{background:#1d2126;border:1px solid #2a2f36;border-radius:12px;padding:22px;font-size:14.5px;color:#cfd3d8}
+  .review b{color:#fff;display:block;margin-bottom:8px}
+  .stars{color:#f0c96a;margin-bottom:10px;letter-spacing:2px}
+  .contact{background:#101316}
+  .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+  .contact img{width:100%;border-radius:14px;display:block}
+  .contact-row{display:flex;gap:14px;margin-bottom:18px;font-size:15.5px}
+  .contact-row b{color:#f97316;min-width:92px;display:inline-block}
+  footer{border-top:1px solid #2a2f36;padding:22px 0;color:#6b7280;font-size:13px;text-align:center}
+  @media(max-width:900px){
+    .grid{grid-template-columns:repeat(2,1fr)}
+    .why{grid-template-columns:1fr}
+    .reviews{grid-template-columns:1fr}
+    .contact-grid{grid-template-columns:1fr}
+    .btn-ghost{margin:12px 0 0}
+  }
+  @media(max-width:520px){.grid{grid-template-columns:1fr}.header-phone{display:none}}
+</style>
+</head>
+<body>
+
+<header><div class="wrap header-in">
+  <div class="logo">ТЕХ<span>ЦЕНТР</span> 39</div>
+  <a class="header-phone" href="tel:+79001234567">📞 +7 (900) 123-45-67</a>
+</div></header>
+
+<div class="hero">
+  <img src="images/hero.jpg" alt="Автосервис ТехЦентр 39">
+  <div class="wrap hero-in">
+    <h1>Ремонт и обслуживание<br>автомобилей <em>без сюрпризов</em></h1>
+    <p>Честная смета до начала работ, гарантия 6 месяцев и машина к назначенному времени. Диагностика — бесплатно при ремонте у нас.</p>
+    <a class="btn" href="https://wa.me/79001234567">Записаться в WhatsApp</a>
+    <a class="btn btn-ghost" href="#services">Услуги и цены</a>
+  </div>
+</div>
+
+<section id="services"><div class="wrap">
+  <h2>Услуги и цены</h2>
+  <p class="sub">Точная смета — после диагностики. Цена не меняется в процессе ремонта.</p>
+  <div class="grid">
+    <div class="card"><h3>Компьютерная диагностика</h3><p>Считываем ошибки, находим причину, а не symptom.</p><div class="price">от 800 ₽</div></div>
+    <div class="card"><h3>Техобслуживание</h3><p>Масло, фильтры, свечи. Запчасти в наличии и под заказ.</p><div class="price">от 2 500 ₽</div></div>
+    <div class="card"><h3>Ремонт подвески</h3><p>Стойки, рычаги, ступицы. Выезд на тест-драйв после ремонта.</p><div class="price">от 1 500 ₽</div></div>
+    <div class="card"><h3>Ремонт двигателей</h3><p>От мелкого ремонта до капитального. Гарантия на работы.</p><div class="price">от 5 000 ₽</div></div>
+    <div class="card"><h3>Автоэлектрика</h3><p>Проводка, датчики, свет, стартеры и генераторы.</p><div class="price">от 1 000 ₽</div></div>
+    <div class="card"><h3>Тормозная система</h3><p>Диски, колодки, суппорты. Прокачка и проверка на стенде.</p><div class="price">от 1 200 ₽</div></div>
+    <div class="card"><h3>Шиномонтаж</h3><p>Легковые и кроссоверы. Балансировка, сезонная переобувка.</p><div class="price">от 300 ₽</div></div>
+    <div class="card"><h3>Кондиционеры</h3><p>Заправка, поиск утечки, ремонт компрессоров.</p><div class="price">от 1 500 ₽</div></div>
+  </div>
+</div></section>
+
+<section style="background:#101316"><div class="wrap">
+  <div class="why">
+    <img src="images/engine.jpg" alt="Ремонт двигателя">
+    <div class="why-list">
+      <h2>Почему возвращаются</h2>
+      <div class="why-item"><b>01</b><div><b>Смета до начала работ.</b> Согласуем цену — она не вырастет «по ходу ремонта».</div></div>
+      <div class="why-item"><b>02</b><div><b>Гарантия 6 месяцев</b> на работы и установленные запчасти.</div></div>
+      <div class="why-item"><b>03</b><div><b>Показываем снятые детали.</b> Вы видите, что именно меняли.</div></div>
+      <div class="why-item"><b>04</b><div><b>Машина к назначенному времени.</b> Задерживаемся — предупреждаем заранее.</div></div>
+    </div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Что говорят клиенты</h2>
+  <p class="sub">Отзывы из Яндекс.Карт и 2ГИС.</p>
+  <div class="reviews">
+    <div class="review"><div class="stars">★★★★★</div><b>Дмитрий, Toyota RAV4</b>«Делали подвеску за один день, как обещали. Все снятые детали показали, по деньгам уложились ровно в смету.»</div>
+    <div class="review"><div class="stars">★★★★★</div><b>Ольга, Kia Rio</b>«Обычно боюсь автосервисов, тут всё объяснили по-человечески, показали, что менять, а что ещё поездит. Вернусь на ТО.»</div>
+    <div class="review"><div class="stars">★★★★★</div><b>Сергей, Volkswagen Polo</b>«Диагностика бесплатно при ремонте — реально работает. Нашли причину, которую два сервиса до этого „лечили“ зря.»</div>
+  </div>
+</div></section>
+
+<section class="contact" id="contacts"><div class="wrap">
+  <div class="contact-grid">
+    <div>
+      <h2>Запишись на диагностику</h2>
+      <p class="sub">Ответим в WhatsApp в течение 15 минут в рабочее время.</p>
+      <div class="contact-row"><b>Адрес</b><div>г. Калининград, ул. Примерная, 10</div></div>
+      <div class="contact-row"><b>Телефон</b><div><a href="tel:+79001234567">+7 (900) 123-45-67</a></div></div>
+      <div class="contact-row"><b>Часы</b><div>Пн–Сб · 09:00–19:00</div></div>
+      <a class="btn" href="https://wa.me/79001234567">Написать в WhatsApp</a>
+    </div>
+    <img src="images/lift.jpg" alt="Автомобиль на подъёмнике">
+  </div>
+</div></section>
+
+<footer>© ТехЦентр 39 · Ремонт и обслуживание автомобилей · Калининград</footer>
+
+</body>
+</html>
